@@ -5,9 +5,11 @@ contributors:
 filename: learntopaz.tpz
 ---
 
-Topaz is a language for typesetting and general software development,
-developed by STUDIO HAZE. This is distinct from other languages named Topaz.
-Its compiler is written in Topaz and emits Rust.
+Topaz is a general-purpose programming language with typesetting built in. Code
+that does the same job looks the same no matter who writes it.
+
+Topaz is developed by STUDIO HAZE. This is distinct from other languages named
+Topaz. Its compiler is written in Topaz and emits Rust.
 
 Save the following code as `learntopaz.tpz` and run
 `topaz run learntopaz.tpz --compiler rust` to select the reference compiler.

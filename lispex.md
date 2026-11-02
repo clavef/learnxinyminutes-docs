@@ -5,9 +5,12 @@ contributors:
 filename: learnlispex.lspx
 ---
 
-Lispex is a Lisp-family language developed by STUDIO HAZE for application
-decision rules. It follows the Scheme tradition, but is its own language;
-do not assume that every Scheme extension or library is available.
+Lispex is a language for writing business rules, such as a publisher's house
+style. It cannot touch files or the network, so it is safe to run inside any
+program.
+
+It follows the Scheme tradition, but is its own language. Do not assume that
+every Scheme extension or library is available.
 
 Save this code as `learnlispex.lspx` and run `lispex learnlispex.lspx`.
 The examples use the official Lispex 1.21.1 CLI. It displays successful
